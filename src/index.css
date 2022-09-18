@@ -1,0 +1,206 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+:root{
+  --primary:#ededed;
+  --light:#dcdcdc;
+  --white:#ffffff;
+}
+body{
+  background-color: var(--primary);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.main-container{
+  width: 90%;
+  height: 80vh;
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 1rem; */
+  margin: 3rem 5rem;
+  background-color: var(--light);
+  border-radius: 1.5rem;
+ 
+}
+.side-nav{
+  /* border: 3px solid green; */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.profile-container {
+  height: 25%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.profile-container  img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.tab-container{
+  /* background-color: greenyellow; */
+  padding: 1rem 0.5rem;
+ 
+}
+.tab-container ul{
+  list-style: none;
+  /* background-color: rgb(29, 12, 92); */
+}
+.tab-container ul li{
+  padding: 1rem 0.5rem;
+ cursor: pointer;
+  /* background-color: rgb(190, 34, 88); */
+}
+.tab-container ul li a{
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+}
+
+
+
+.right-container{
+  /* border: 2px solid blue; */
+  width: 80%;
+  background-color: var(--white);
+  padding: 0rem 2.5rem;
+  border-radius: 0rem 1.5rem 1.5rem 0rem;
+}
+.right-container .top-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem 2rem;
+
+}
+.right-container .top-header img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0rem 0.5rem;
+}
+
+.right-container .header{
+margin: 1rem 0rem;
+display: flex;
+justify-content:space-between;
+align-items: center;
+flex-direction: row;
+}
+.right-container .header p{
+background-color: var(--light);
+font-size: 2rem;
+padding: 0.5rem 1rem;
+border-radius: 50%;
+}
+.right-container .header span{
+  font-size: 1rem;
+  text-align: center;
+  /* width: 1rem;
+  height: 1rem; */
+  background-color: gray;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--white);
+}
+
+.table{
+  width: 100%;
+
+}
+.table thead{
+
+/* margin-bottom: 1rem; */
+}
+.table thead th{
+text-align: left;
+padding: 10px;
+margin-bottom: 1rem;
+background-color: var(--light);
+}
+
+.table tbody{
+ margin-top: 10px;
+  
+}
+.table tbody tr td{
+  padding: 10px;
+  
+}
+.table tbody tr .partcipants-name{
+  display: flex;
+  flex-direction: row;
+  
+}
+.table tbody tr .partcipants-name img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  
+}
+
+.button-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button-container button{
+ outline: none;
+ border: none;
+ padding: 0.5rem 2rem;
+ border-radius: 3rem;
+ background-color: rgb(87, 37, 153);
+ color: var(--white);
+ cursor: pointer;
+}
+
+.status-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+
+
+
