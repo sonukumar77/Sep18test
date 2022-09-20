@@ -82,12 +82,14 @@ const RightContainer = () => {
                 </div>
                 <table className="table">
                     <thead>
+                        <tr>
+                         <th>Participants</th>
                         <th>Participants</th>
                         <th>Participants</th>
                         <th>Participants</th>
                         <th>Participants</th>
                         <th>Participants</th>
-                        <th>Participants</th>
+                       </tr>
                     </thead>
                     <tbody>
                         <tr>
