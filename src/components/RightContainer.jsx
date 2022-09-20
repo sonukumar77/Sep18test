@@ -19,12 +19,14 @@ const RightContainer = () => {
 
                 <table className="table">
                     <thead>
-                        <th>Participants</th>
-                        <th>Participants</th>
-                        <th>Participants</th>
-                        <th>Participants</th>
-                        <th>Participants</th>
-                        <th>Participants</th>
+                      <tr>
+                            <th>Participants</th>
+                            <th>Participants</th>
+                            <th>Participants</th>
+                            <th>Participants</th>
+                            <th>Participants</th>
+                            <th>Participants</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
